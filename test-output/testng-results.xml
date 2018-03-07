@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I navigate to Orange HRM page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I log in with admin credential (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should be able to see my user info on the right side of the screen. (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7569" started-at="2018-03-07T00:45:34Z" finished-at="2018-03-07T00:45:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="7569" started-at="2018-03-07T00:45:34Z" finished-at="2018-03-07T00:45:41Z">
+      <class name="runnerPackage.OrangeHRM_runner_1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="setUp" is-config="true" duration-ms="4745" started-at="2018-03-07T00:45:34Z" finished-at="2018-03-07T00:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="setUpClass" is-config="true" duration-ms="306" started-at="2018-03-07T00:45:38Z" finished-at="2018-03-07T00:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="runScenario" duration-ms="2374" started-at="2018-03-07T00:45:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-07T00:45:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As an Admin user for OrangeHRM, I should be able to log in to OrangeHRM and see the user log in information on the right side of the page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This is a feature for OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I navigate to Orange HRM page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I log in with admin credential (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should be able to see my user info on the right side of the screen. (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2018-03-07T00:45:41Z" finished-at="2018-03-07T00:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerPackage.OrangeHRM_runner_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
