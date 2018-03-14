@@ -10,28 +10,37 @@
     <line>
       <![CDATA[<div "result">I should be able to see my user info on the right side of the screen. (PASSED : 0s)</div>]]>
     </line>
+    <line>
+      <![CDATA[<div "result">I should be able to click on Admin and navigate to &#x27;Job&#x27; page (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should be able to add a job title by clicking on &#x27;Add&#x27; button (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see the new job title get created on the page (PASSED : 0s)</div>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7569" started-at="2018-03-07T00:45:34Z" finished-at="2018-03-07T00:45:41Z">
+  <suite name="Default suite" duration-ms="12312" started-at="2018-03-14T21:18:54Z" finished-at="2018-03-14T21:19:06Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="7569" started-at="2018-03-07T00:45:34Z" finished-at="2018-03-07T00:45:41Z">
+    <test name="Default test" duration-ms="12312" started-at="2018-03-14T21:18:54Z" finished-at="2018-03-14T21:19:06Z">
       <class name="runnerPackage.OrangeHRM_runner_1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="setUp" is-config="true" duration-ms="4745" started-at="2018-03-07T00:45:34Z" finished-at="2018-03-07T00:45:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="setUp" is-config="true" duration-ms="7235" started-at="2018-03-14T21:18:54Z" finished-at="2018-03-14T21:19:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="setUpClass" is-config="true" duration-ms="306" started-at="2018-03-07T00:45:38Z" finished-at="2018-03-07T00:45:39Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="setUpClass" is-config="true" duration-ms="336" started-at="2018-03-14T21:19:01Z" finished-at="2018-03-14T21:19:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="runScenario" duration-ms="2374" started-at="2018-03-07T00:45:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-07T00:45:41Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="runScenario" duration-ms="4561" started-at="2018-03-14T21:19:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-14T21:19:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["As an Admin user for OrangeHRM, I should be able to log in to OrangeHRM and see the user log in information on the right side of the page"]]>
+                <![CDATA["As an Admin user for OrangeHRM, I should be able to log in to OrangeHRM and add a job title by going to Admin page and then click on Job page."]]>
               </value>
             </param>
             <param index="1">
@@ -50,9 +59,18 @@
             <line>
               <![CDATA[<div "result">I should be able to see my user info on the right side of the screen. (PASSED : 0s)</div>]]>
             </line>
+            <line>
+              <![CDATA[<div "result">I should be able to click on Admin and navigate to &#x27;Job&#x27; page (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should be able to add a job title by clicking on &#x27;Add&#x27; button (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see the new job title get created on the page (PASSED : 0s)</div>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2018-03-07T00:45:41Z" finished-at="2018-03-07T00:45:41Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2018-03-14T21:19:06Z" finished-at="2018-03-14T21:19:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

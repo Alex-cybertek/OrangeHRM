@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runnerPackage.OrangeHRM_runner_1">
+      <class name="stepDefinitionPackage.stepDefinition">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- runnerPackage.OrangeHRM_runner_1 -->
+      </class> <!-- stepDefinitionPackage.stepDefinition -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
