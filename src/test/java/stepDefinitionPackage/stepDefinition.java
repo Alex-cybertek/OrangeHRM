@@ -1,5 +1,7 @@
 package stepDefinitionPackage;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -12,7 +14,7 @@ import cucumber.api.java.en.Then;
 import runnerPackage.OrangeHRM_runner_1;
 
 public class stepDefinition extends OrangeHRM_runner_1 {
-	
+	int k;
 	@Given("^I navigate to Orange HRM page$")
 	public void i_navigate_to_Orange_HRM_page(){
 	    driver.get("http://opensource.demo.orangehrmlive.com");
@@ -84,5 +86,12 @@ public class stepDefinition extends OrangeHRM_runner_1 {
 	@Then("^I should see the new job title get created on the page$")
 	public void i_should_see_the_new_job_title_get_created_on_the_page(){
 
+	 List<WebElement> tableArr=driver.findElements(By.xpath("//div[@id='tableWrapper']/table[1]//td"));
+		for (k=1;k<tableArr.size();k++){ 
+			if(tableArr.get(k).getText().equals("Project Engineer")){
+			System.out.println("Passed");
+			}
+			}
+		}
 	}
-}
+

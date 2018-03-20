@@ -20,23 +20,23 @@
       <![CDATA[<div "result">I should see the new job title get created on the page (PASSED : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12312" started-at="2018-03-14T21:18:54Z" finished-at="2018-03-14T21:19:06Z">
+  <suite name="Default suite" duration-ms="11084" started-at="2018-03-20T00:07:01Z" finished-at="2018-03-20T00:07:12Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepDefinitionPackage.stepDefinition@72d818d1]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="12312" started-at="2018-03-14T21:18:54Z" finished-at="2018-03-14T21:19:06Z">
-      <class name="runnerPackage.OrangeHRM_runner_1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="setUp" is-config="true" duration-ms="7235" started-at="2018-03-14T21:18:54Z" finished-at="2018-03-14T21:19:01Z">
+    <test name="Default test" duration-ms="11084" started-at="2018-03-20T00:07:01Z" finished-at="2018-03-20T00:07:12Z">
+      <class name="stepDefinitionPackage.stepDefinition">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:stepDefinitionPackage.stepDefinition@72d818d1]" name="setUp" is-config="true" duration-ms="5283" started-at="2018-03-20T00:07:01Z" finished-at="2018-03-20T00:07:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="setUpClass" is-config="true" duration-ms="336" started-at="2018-03-14T21:19:01Z" finished-at="2018-03-14T21:19:02Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:stepDefinitionPackage.stepDefinition@72d818d1]" name="setUpClass" is-config="true" duration-ms="314" started-at="2018-03-20T00:07:06Z" finished-at="2018-03-20T00:07:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="runScenario" duration-ms="4561" started-at="2018-03-14T21:19:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-14T21:19:06Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepDefinitionPackage.stepDefinition@72d818d1]" name="runScenario" duration-ms="5316" started-at="2018-03-20T00:07:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-20T00:07:12Z">
           <params>
             <param index="0">
               <value>
@@ -70,11 +70,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerPackage.OrangeHRM_runner_1@2f686d1f]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2018-03-14T21:19:06Z" finished-at="2018-03-14T21:19:06Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:stepDefinitionPackage.stepDefinition@72d818d1]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2018-03-20T00:07:12Z" finished-at="2018-03-20T00:07:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runnerPackage.OrangeHRM_runner_1 -->
+      </class> <!-- stepDefinitionPackage.stepDefinition -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
